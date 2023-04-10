@@ -1,0 +1,35 @@
+.container-abs{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.video-Content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.video-Content div{
+    padding: 5px 20px;
+}
+
+video{
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+
+
+@media screen  and (min-width:0px) and (max-width:767px) {
+    .video-Content{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}

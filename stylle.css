@@ -1,0 +1,360 @@
+body{
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* This style for home page */
+
+header{
+    width: 100%;
+    height: 9vh;
+    background: rgb(234, 144, 128,0.9);
+    background: tomato;
+    display: flex;
+    padding: 0%;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+}
+
+.icon{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+header #logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+header #head1{
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+header #unorder{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+}
+
+header #unorder li{
+    margin-left: 40px;
+}
+
+header #unorder li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+header #unorder li a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    margin-top:0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/Workout-Routine-For-Men-At-home.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container button{
+    position: relative;
+    top: 67%;
+    left: 80%;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: tomato;
+    color: black;
+    font-size: 1rem;
+}
+
+.container button:hover{
+    position: relative;
+    top: 67%;
+    left: 80%;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: tomato;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+
+/* multi image courocel */
+
+div#carousel { 
+    perspective: 1200px; 
+    background: #100000; 
+    padding: 2%; 
+    font-size:0; 
+    margin-bottom: 3rem; 
+    overflow: hidden; 
+}
+figure#spinner { 
+    transform-style: preserve-3d; 
+    height: 300px; 
+    transform-origin: 50% 50% -500px; 
+    transition: 1s; 
+} 
+figure#spinner img { 
+    width: 40%; max-width: 425px; 
+    position: absolute; left: 30%;
+    transform-origin: 50% 50% -500px;
+    outline:1px solid transparent; 
+}
+figure#spinner img:nth-child(1) { 
+    transform:rotateY(0deg); 
+}
+figure#spinner img:nth-child(3) 
+{ transform: rotateY(-90deg); 
+}
+figure#spinner img:nth-child(2) { 
+    transform: rotateY(-45deg); 
+}
+figure#spinner img:nth-child(5){ 
+    transform: rotateY(-180deg); 
+}
+figure#spinner img:nth-child(4) { 
+    transform: rotateY(-135deg); 
+}
+figure#spinner img:nth-child(7){ 
+    transform: rotateY(-270deg); 
+}
+figure#spinner img:nth-child(6){ 
+    transform: rotateY(-225deg); 
+}
+figure#spinner img:nth-child(8){ 
+    transform: rotateY(-315deg);
+}
+div#carousel ~ span { 
+    color: #fff; 
+    margin: 5%; 
+    display: inline-block; 
+    text-decoration: none; 
+    font-size: 2rem; 
+    transition: 0.6s color; 
+    position: relative; 
+    margin-top: -6rem; 
+    border-bottom: none; 
+    line-height: 0; }
+  div#carousel ~ span:hover { color: #888; cursor: pointer; 
+}
+
+
+
+/* parallox effect */
+
+
+.parallox1{
+    background: url(./images/leg-home.jpg)
+    no-repeat center/cover fixed;
+    background-size: contain;
+    height: 100vh;  
+    display: flex;
+    align-items: center; 
+    padding: 0 30px;
+
+}
+
+.parallox2{
+    background: url(./images/chest-home.jpg)
+    no-repeat center/cover fixed;
+    height: 100vh;  
+    display: flex;
+    align-items: center; 
+    padding: 0 30px;
+
+}
+
+.parallox4{
+    background: url(./images/backhome-backgroud.jpg)
+    no-repeat center/cover fixed;
+    height: 100vh;  
+    display: flex;
+    align-items: center; 
+    padding: 0 30px;
+
+}
+
+.parallox3{
+    background: url(./images/background-home.webp)
+    no-repeat center/cover fixed;
+    height: 100vh;  
+    display: flex;
+    align-items: center; 
+    padding: 0 30px;
+
+}
+
+#leg-workout img{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#leg-imfor{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 300px;
+    padding: 0 30px;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+#leg-imfor #headleg{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 0%;
+}
+#leg-imfor hr{
+    width: 100px;
+    height: 2px;
+    background: tomato;
+    border: none;
+}
+
+
+
+
+
+/* animation */
+
+#animation{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#aos{
+    width: 300px;
+    height: 200px;
+    margin: 20px auto 0;
+}
+
+#aos img{
+    width: 100%;
+    height: 100%;
+}
+
+/* From this aboutUs page style */
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.container2 #aboutcontent{
+    text-align: justify;
+    margin: 0% 40px;
+    margin-top: 0%;
+}
+
+
+
+
+
+/* from this workout css */
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.images{
+    margin: 0px 90px 0 120px;
+    
+}
+
+#image6{
+    
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#image6:hover{
+    filter: blur(3px);
+}
+
+#hidden{
+    display: none;
+}
+
+#hidden{
+    position: relative;
+    top: -140px;
+    left: 75px;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: rgba(0, 0, 0, 0.3); */
+    /* background: black; */
+}
+
+footer .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 200px;
+    margin-bottom: 20px;
+    
+}
+
+footer .icons img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+footer .foot{
+    width: 100%;
+    background: tomato;
+    height: 40px;
+    
+}
+
+footer .foot h1{
+    text-align: center;
+    font-size: 1rem;
+}
